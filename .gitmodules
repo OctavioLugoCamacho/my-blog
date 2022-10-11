@@ -1,0 +1,4 @@
+[submodule "octavioblog/public"]
+	path = octavioblog/public
+	url = git@github.com:OctavioLugoCamacho/octaviolugocamacho.github.io.git
+	branch = main

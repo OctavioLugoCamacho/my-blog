@@ -1,0 +1,50 @@
+baseURL = 'https://octaviolugocamacho.github.io/'
+languageCode = 'en-us'
+title = 'Octavio Lugo Camacho'
+theme = "m10c"
+paginate = 8
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 3
+
+[params]
+    author = "Octavio Lugo Camacho"
+    description = "Computer systems engineer 💻 Passionate about programming and technology 👨‍💻"
+    menu_item_separator = " - "
+    avatar = "/Octa.jpeg"
+    [params.style]
+        darkestColor = "#315659"
+        darkColor = "#253031"
+        lightColor = "#96a879"
+        lightestColor = "#fff"
+        primaryColor = "#dad865"
+    [[params.social]]
+        icon = "github"
+        name = "Github"
+        url = "https://github.com/OctavioLugoCamacho"
+    [[params.social]]
+        icon = "linkedin"
+        name = "Linkedin"
+        url = "https://www.linkedin.com/in/octaviolugo/"
+    [[params.social]]
+        icon = "facebook"
+        name = "Facebook"
+        url = "https://www.facebook.com/octavio.lugo.camacho/"
+    [[params.social]]
+        icon = "instagram"
+        name = "Instagram"
+        url = "https://www.instagram.com/octavio_lugo_camacho/"
