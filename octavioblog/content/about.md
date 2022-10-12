@@ -3,7 +3,7 @@ title = "About"
 +++
 ## Personal Information
 - 26 years old
-- 5626476922
+- 56 2647 6922
 - Mexico City
 
 ## Professional Experience

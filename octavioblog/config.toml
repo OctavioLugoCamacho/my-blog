@@ -27,11 +27,11 @@ paginate = 8
     menu_item_separator = " - "
     avatar = "/Octa.jpeg"
     [params.style]
-        darkestColor = "#315659"
-        darkColor = "#253031"
-        lightColor = "#96a879"
-        lightestColor = "#fff"
-        primaryColor = "#dad865"
+        darkestColor = "#242930"
+        darkColor = "#353b43"
+        lightColor = "#afbac4"
+        lightestColor = "#ffffff"
+        primaryColor = "#57cc8a"
     [[params.social]]
         icon = "github"
         name = "Github"
