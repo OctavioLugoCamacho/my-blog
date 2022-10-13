@@ -57,5 +57,5 @@ Something that I loved learning and that is really useful is the "Daily", it is 
 
 It is a really simple and concrete text, but with it the team can see how you are doing and what they can support you with.
 
-### Ruby and Groovy
-
+### The software apprentice
+I had the opportunity to read a text prepared by my mentor [José Juan Reyes Zuñiga](https://github.com/neodevelop "José Juan Reyes Zuñiga"), who helped me along this path, from things as simple as investing in myself, to methods and methodologies. I really think that if you would like to learn a bit about how to learn software I recommend reading it.
