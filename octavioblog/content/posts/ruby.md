@@ -4,11 +4,14 @@ date = 2022-10-12
 tags = ["Ruby", "Course", "Experience"]
 +++
 
+![Ruby](../../ruby.svg)
 # What is Ruby?
 Ruby is... A dynamic, open source programming language focused on simplicity and productivity. Its elegant syntax feels natural to read and easy to write.
 
+You can check the documentation [Here](https://www.ruby-lang.org/en/documentation/ "Here")!
+
 # How to install Ruby with RVM?
-## Install RVM
+### Install RVM
 Run the following commands on your production server to install RVM:
 
 ```
@@ -26,7 +29,7 @@ $ if sudo grep -q secure_path /etc/sudoers; then sudo sh -c "echo export rvmsudo
 
 When you are done with all this, relogin to your server to activate RVM. This is important: if you don't relogin, RVM doesn't work. Also if you use gnu screen or another terminal multiplexer, RVM also won't work; you must use a plain ssh session.
 
-## Install the Ruby version you want
+### Install the Ruby version you want
 Usually, installing the latest Ruby version will suffice. If you are deploying the example app from the quickstart, then that example application works with all Ruby versions.
 
 However, if you are deploying your own app, then your app may have a specific Ruby version requirement.
@@ -54,7 +57,7 @@ Although creating a Ruby project is not a difficult task, it might seem so when 
 
 Luckily, we have tools that could help us with the setting up and other configurations.
 
-## Bundler & Gemfile
+### Bundler & Gemfile
 Bundle is the most commonly used tool or gem (as Ruby packages are called) that could help with the management of the dependencies in the project (test libraries,…)
 
 Bundler needs to be installed in our system first and once successfully installed, the command bundle should be accessible to use.
@@ -85,7 +88,7 @@ $ bundle init
 
 Bundle will automatically create a `Gemfile`, a file where your project dependencies will be specified.
 
-## Structure
+### Structure
 The most common structure used for a ruby project is to have two main directories:
 
 A directory called lib that will contain the source files.
@@ -124,7 +127,7 @@ You will have something like this:
 |- Gemfile
 ```
 
-## Rspec
+### Rspec
 
 Rspec is a testing framework that will help creating a running tests in Ruby. In order to work, it needs to be added to the `Gemfile` of your project.
 
