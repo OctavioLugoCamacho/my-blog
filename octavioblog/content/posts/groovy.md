@@ -1,5 +1,5 @@
 +++
-title = "Groovy"
+title = "What is Groovy and how do I install it?"
 date = 2022-10-15
 tags = ["Groovy", "Course", "Experience"]
 +++
@@ -44,19 +44,22 @@ $ groovy -version
 That’s all there is to it!
 
 # Let's do an exercise
-### Multiples of 3 or 5
-If we list all the natural numbers below 10 that are multiples of 3 or 5, we get 3, 5, 6 and 9. The sum of these multiples is 23.
+### Sum square difference
+The sum of the squares of the first ten natural numbers is, 1^2+2^2+...+10^2 = 385
 
-Find the sum of all the multiples of 3 or 5 below 1000.
+The square of the sum of the first ten natural numbers is, (1+2+...+10)^2 = 55^2 = 3025 Hence the difference between the sum of the squares of the first ten natural numbers and the square of the sum is 3025 - 385 = 2640.
+
+Find the difference between the sum of the squares of the first one hundred natural numbers and the square of the sum.
 
 ```groovy
-def sum = 0
+def num = 100
 
-for(int i in 1..999) {
-  if (i % 3 == 0 || i % 5 == 0) { sum += i}
-}
+def sumOfSquares = (num * (num + 1)) / 2
+sumOfSquares *= sumOfSquares
 
-println sum
+def squareOfSum = (num * (num + 1) * (2 * num + 1)) / 6
+
+def difference = sumOfSquares - squareOfSum
 ```
 
 We need to run the next command:

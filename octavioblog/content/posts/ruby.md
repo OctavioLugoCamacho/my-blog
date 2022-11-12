@@ -1,5 +1,5 @@
 +++
-title = "Ruby"
+title = "How do I install Ruby and how do I use rspec?"
 date = 2022-10-12
 tags = ["Ruby", "Course", "Experience"]
 +++
