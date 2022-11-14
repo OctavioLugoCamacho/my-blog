@@ -1,5 +1,5 @@
 +++
-title = "What is Groovy and how do I install it?"
+title = "Groovy and its installation"
 date = 2022-10-15
 tags = ["Groovy", "Course", "Experience"]
 +++
@@ -68,4 +68,4 @@ We need to run the next command:
 $ groovy exercise.groovy
 ```
 
-And we get the reult that is 233168.
+And we get the reult that is `25164150`.
